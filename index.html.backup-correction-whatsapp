@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>OHMAN â€“ La force naturelle</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Caveat:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head><body>
+<svg width="0" height="0" style="position:absolute"><defs>
+<symbol id="bolt" viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></symbol>
+<symbol id="shield" viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 5 3 8 7 10 4-2 7-5 7-10V6z"/><path d="m9 12 2 2 4-4"/></symbol>
+<symbol id="leaf" viewBox="0 0 24 24"><path d="M5 19C4 9 10 4 20 4c0 10-5 16-13 15z"/><path d="M5 19 14 10"/></symbol>
+<symbol id="star" viewBox="0 0 24 24"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></symbol>
+<symbol id="truck" viewBox="0 0 24 24"><path d="M2 6h11v10H2zM13 9h4l4 4v3h-8z"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/></symbol>
+<symbol id="search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></symbol>
+<symbol id="cart" viewBox="0 0 24 24"><path d="M3 4h3l2.4 11h10l2-8H7"/><circle cx="10" cy="19" r="1.4"/><circle cx="17" cy="19" r="1.4"/></symbol>
+<symbol id="chk" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7"/></symbol>
+<symbol id="arr" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+<symbol id="play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></symbol>
+</defs></svg>
+
+<header><div class="wrap"><div class="bar">
+<a href="#accueil" aria-label="OHMAN"><img src="assets/logo.jpg" alt="OHMAN" style="width:auto"></a>
+<nav id="nav"><a href="#accueil" class="on">Accueil</a><a href="#produits">Produits</a><a href="#avis">Avis</a><a href="#apropos">Ã€ propos</a><a href="#contact">Contact</a></nav>
+<div class="rt">
+<button class="ic" data-open="od" aria-label="Rechercher un produit"><svg class="i"><use href="#search"/></svg></button>
+<button class="ic" data-open="od" aria-label="Panier"><svg class="i"><use href="#cart"/></svg><span class="bd" id="bd">0</span></button>
+<button class="pill sm" data-open="od">Commander <svg class="i"><use href="#arr"/></svg></button>
+<button class="bg" id="bg" aria-label="Menu">â˜°</button>
+</div></div></div></header>
+
+<main>
+<section id="accueil" data-s><div class="wrap"><div class="hero" id="hero">
+<div class="a slash"></div>
+<img class="a head" src="assets/head.jpg" alt="" style="left:54.7cqw;top:6.8cqw;width:45.3cqw">
+<div class="a txt">
+<div class="eb">RÃ‰SISTANCE â€¢ VITALITÃ‰ â€¢ PERFORMANCE</div>
+<h1><span class="h1" style="display:block">OHMAN</span><span class="h2" style="display:block">Lâ€™homme symbole<br><em class="o">de rÃ©sistance</em></span></h1>
+<p class="lead">Une gamme de produits naturels conÃ§us pour booster votre vitalitÃ©, amÃ©liorer vos performances et renforcer votre confiance au quotidien.</p>
+<a href="#produits" class="pill">DÃ©couvrir la gamme <svg class="i"><use href="#arr"/></svg></a>
+<div class="trust"><div><svg class="i"><use href="#shield"/></svg><b>100%</b>Naturel</div><div><svg class="i"><use href="#leaf"/></svg><b>QualitÃ©</b>Premium</div><div><svg class="i"><use href="#truck"/></svg><b>Livraison</b>rapide</div></div>
+</div>
+<div class="a prod" style="left:42.6cqw;top:35.4cqw;width:51.2cqw"><img id="pimg" src="assets/prod.jpg" alt="Gamme OHMAN : spray, sachets Amelaku et baume Membre"></div>
+<div class="a card c1" style="left:64.2cqw;top:26.4cqw;width:18.1cqw"><svg class="i"><use href="#bolt"/></svg><div><b>VitalitÃ© naturelle</b><span>Boostez votre Ã©nergie et votre endurance.</span></div></div>
+<div class="a script" style="left:88.2cqw;top:25.6cqw">Plus quâ€™un produit, une force au quotidien.</div>
+<div class="a card c2" style="left:13cqw;top:67.5cqw;width:20.7cqw"><svg class="i"><use href="#leaf"/></svg><div><b>100% Naturel</b><span>Des ingrÃ©dients sÃ©lectionnÃ©s avec soin.</span></div></div>
+</div></div></section>
+
+<section id="produits" data-s class="cat"><div class="wrap">
+<div class="hd"><div><h2>Le catalogue <em class="o">OHMAN</em></h2><p>Spray, poudre et pommade : toute la gamme, produit par produit.</p></div>
+<div class="ctl"><button class="l" id="prev" aria-label="PrÃ©cÃ©dent"><svg class="i"><use href="#arr"/></svg></button><button id="next" aria-label="Suivant"><svg class="i"><use href="#arr"/></svg></button></div></div>
+<div class="trk" id="trk" tabindex="0" aria-label="Catalogue produits"><article class="pc"><figure><img src="assets/cat1.jpg" alt="Outoulspray OHMAN" loading="lazy"></figure><div class="b"><h3>Outoulspray</h3><div class="s">Spray en flacon ambrÃ©, Ã©tiquette noire et or</div><ul><li><svg class="i"><use href="#chk"/></svg>Flacon spray en verre ambrÃ©</li><li><svg class="i"><use href="#chk"/></svg>Ã‰tiquette noire et or</li><li><svg class="i"><use href="#chk"/></svg>OHMAN Â· Homme symbole de rÃ©sistance</li></ul><button class="pill" data-open="od" data-p="Outoulspray">Commander <svg class="i"><use href="#arr"/></svg></button></div></article><article class="pc"><figure><img src="assets/cat2.jpg" alt="Outoulspray OHMAN" loading="lazy"></figure><div class="b"><h3>Outoulspray</h3><div class="s">Spray en flacon ambrÃ©, Ã©tiquette blanche et or</div><ul><li><svg class="i"><use href="#chk"/></svg>Flacon spray en verre ambrÃ©</li><li><svg class="i"><use href="#chk"/></svg>Ã‰tiquette blanche et or</li><li><svg class="i"><use href="#chk"/></svg>OHMAN Â· Homme symbole de rÃ©sistance</li></ul><button class="pill" data-open="od" data-p="Outoulspray">Commander <svg class="i"><use href="#arr"/></svg></button></div></article><article class="pc"><figure><img src="assets/cat3.jpg" alt="Poutoulspray OHMAN" loading="lazy"></figure><div class="b"><h3>Poutoulspray</h3><div class="s">Lâ€™essence de la rÃ©sistance masculine</div><ul><li><svg class="i"><use href="#chk"/></svg>Deux versions : Ã©tiquette blanche et Ã©tiquette noire</li><li><svg class="i"><use href="#chk"/></svg>Flacons spray en verre ambrÃ©</li><li><svg class="i"><use href="#chk"/></svg>OHMAN Â· Homme symbole de rÃ©sistance</li></ul><button class="pill" data-open="od" data-p="Poutoulspray">Commander <svg class="i"><use href="#arr"/></svg></button></div></article><article class="pc"><figure><img src="assets/cat4.jpg" alt="AmÃ©laku OHMAN" loading="lazy"></figure><div class="b"><h3>AmÃ©laku</h3><div class="s">Booster masculin, aphrodisiaque naturel</div><ul><li><svg class="i"><use href="#chk"/></svg>Poudre buvable en sachets</li><li><svg class="i"><use href="#chk"/></svg>5 sachets de 12 g, cuillÃ¨re incluse</li><li><svg class="i"><use href="#chk"/></svg>IngrÃ©dients 100% naturels</li><li><svg class="i"><use href="#chk"/></svg>FabriquÃ© en France</li></ul><button class="pill" data-open="od" data-p="AmÃ©laku (sachets)">Commander <svg class="i"><use href="#arr"/></svg></button></div></article><article class="pc"><figure><img src="assets/cat5.jpg" alt="AmÃ©laku OHMAN" loading="lazy"></figure><div class="b"><h3>AmÃ©laku</h3><div class="s">Poudre de bien-Ãªtre naturelle</div><ul><li><svg class="i"><use href="#chk"/></svg>ComplÃ©ment alimentaire pour lâ€™endurance et la force</li><li><svg class="i"><use href="#chk"/></svg>IngrÃ©dients 100% dâ€™origine naturelle</li><li><svg class="i"><use href="#chk"/></svg>FabriquÃ© en France</li></ul><button class="pill" data-open="od" data-p="AmÃ©laku (sachets)">Commander <svg class="i"><use href="#arr"/></svg></button></div></article><article class="pc"><figure><img src="assets/cat6.jpg" alt="Membre OHMAN" loading="lazy"></figure><div class="b"><h3>Membre</h3><div class="s">Pommade pour amÃ©liorer lâ€™apparence</div><ul><li><svg class="i"><use href="#chk"/></svg>Pot vert, mÃ©daillon or</li><li><svg class="i"><use href="#chk"/></svg>OHMAN Â· Lâ€™homme MembrÃ©</li><li><svg class="i"><use href="#chk"/></svg>Homme symbole de rÃ©sistance</li></ul><button class="pill" data-open="od" data-p="Membre (pommade)">Commander <svg class="i"><use href="#arr"/></svg></button></div></article></div>
+<div class="dots" id="dots"></div></div></section>
+
+<section id="avis" data-s class="why"><div class="wrap"><div class="pad">
+<h2 class="rv">Pourquoi choisir <em class="o">OHMAN</em> ?</h2>
+<div class="grid">
+<div class="rv"><div class="ring"><svg class="i"><use href="#bolt"/></svg></div><h3>Ã‰nergie durable</h3><p>Boostez votre vitalitÃ© et restez performant plus longtemps.</p></div>
+<div class="rv"><div class="ring"><svg class="i"><use href="#shield"/></svg></div><h3>Confiance renforcÃ©e</h3><p>Retrouvez votre assurance au quotidien.</p></div>
+<div class="rv"><div class="ring"><svg class="i"><use href="#leaf"/></svg></div><h3>Formule naturelle</h3><p>Sans produits chimiques nocifs.</p></div>
+<div class="rv"><div class="ring"><svg class="i"><use href="#star"/></svg></div><h3>RÃ©sultats prouvÃ©s</h3><p>Des milliers dâ€™hommes dÃ©jÃ  convaincus.</p></div>
+</div>
+</div></div></section>
+
+<section id="videos-ohman" class="ohman-videos" data-s>
+  <div class="ohman-videos-heading">
+    <small>UNIVERS OHMAN</small>
+    <h2>Découvrez OHMAN en vidéo</h2>
+    <p>La force, le soin et l'essentiel au masculin.</p>
+  </div>
+
+  <div class="ohman-showcase-layout">
+    <div class="ohman-videos-grid">
+      <div class="ohman-video-card">
+        <video controls playsinline preload="metadata">
+          <source src="assets/videos/video-1.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="ohman-video-card">
+        <video controls playsinline preload="metadata">
+          <source src="assets/videos/video-2.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+    <aside class="ohman-testimonials">
+      <div class="ohman-testimonials-heading">
+        <small>ILS PARLENT D'OHMAN</small>
+        <h3>Vos avis comptent</h3>
+        <p>Exemples de présentation — à remplacer par de vrais avis clients.</p>
+      </div>
+
+      <article class="ohman-testimonial-card">
+        <div class="ohman-testimonial-stars" aria-label="Exemple de cinq étoiles">★★★★★</div>
+        <p>« Un exemple de témoignage client à remplacer par un avis authentique. »</p>
+        <span>Client OHMAN · Exemple</span>
+      </article>
+
+      <article class="ohman-testimonial-card">
+        <div class="ohman-testimonial-stars" aria-label="Exemple de cinq étoiles">★★★★★</div>
+        <p>« Ajoutez ici un retour réel sur le produit et l'expérience d'achat. »</p>
+        <span>Client OHMAN · Exemple</span>
+      </article>
+
+      <article class="ohman-testimonial-card">
+        <div class="ohman-testimonial-stars" aria-label="Exemple de cinq étoiles">★★★★★</div>
+        <p>« Présentez ici l'avis d'un client avec son accord. »</p>
+        <span>Client OHMAN · Exemple</span>
+      </article>
+    </aside>
+  </div>
+</section>
+<section id="apropos" data-s class="sol"><div class="wrap"><div class="in">
+<img class="a man" src="assets/man.jpg" alt="">
+<img class="a rock" src="assets/rock.jpg" alt="">
+<div class="a t rv"><small>LA FORCE NATURELLE</small><h2>Une solution complÃ¨te<br><em>pour lâ€™homme moderne</em></h2>
+<p>OHMAN, câ€™est lâ€™alliance parfaite entre la tradition africaine et lâ€™innovation moderne. Nos produits sont formulÃ©s pour vous aider Ã  retrouver Ã©nergie, vitalitÃ© et performance, naturellement.</p>
+<button class="pill" data-open="sd">En savoir plus <svg class="i"><use href="#arr"/></svg></button></div>
+<button class="a story" data-open="sd"><i><svg class="i"><use href="#play"/></svg></i><span>DÃ©couvrez<br>notre histoire</span></button>
+</div></div></section>
+
+</main>
+
+<footer id="contact" data-s><div class="wrap" style="container-type:normal">
+<h3>Une question ? Passez commande.</h3>
+<a class="pill" id="wa" href="#" target="_blank" rel="noopener">Ã‰crire sur WhatsApp <svg class="i"><use href="#arr"/></svg></a>
+<div>Â© 2026 OHMAN Â· La force naturelle</div></div></footer>
+
+<dialog id="od"><button class="x" data-close aria-label="Fermer">Ã—</button>
+<h3>Commander OHMAN</h3><p>Votre commande est envoyÃ©e par WhatsApp.</p>
+<form id="of"><label for="pr">Produit</label><select id="pr"><option>Gamme complÃ¨te OHMAN</option><option>Outoulspray</option><option>Poutoulspray</option><option>AmÃ©laku (sachets)</option><option>Membre (pommade)</option></select>
+<label for="q">QuantitÃ©</label><input id="q" type="number" min="1" max="20" value="1">
+<label for="n">Nom</label><input id="n" required autocomplete="name">
+<label for="t">TÃ©lÃ©phone</label><input id="t" type="tel" required autocomplete="tel">
+<button class="pill" type="submit">Envoyer ma commande</button></form></dialog>
+<dialog id="sd"><button class="x" data-close aria-label="Fermer">Ã—</button>
+<h3>Notre histoire</h3><p>OHMAN, câ€™est lâ€™alliance parfaite entre la tradition africaine et lâ€™innovation moderne. Des produits naturels, sÃ©lectionnÃ©s avec soin, pour retrouver Ã©nergie, vitalitÃ© et performance.</p>
+<button class="pill" data-open="od" data-close>Commander <svg class="i"><use href="#arr"/></svg></button></dialog>
+
+<script src="js/main.js"></script></body></html>
+

@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Caveat:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"><style id="ohman-testimonials-gallery-style">
+.ohman-testimonials {
+  margin-top: 0px !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+.ohman-testimonials-heading {
+  margin-bottom: 14px !important;
+}
+.ohman-testimonials-heading h3 {
+  margin: 5px 0 !important;
+}
+.ohman-testimonials-heading p {
+  margin: 5px 0 !important;
+}
+.ohman-testimonials .ohman-review-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  align-items: start;
+}
+.ohman-testimonials .ohman-review-thumb {
+  margin: 0;
+  padding: 5px;
+  border: 1px solid rgba(212,175,55,.35);
+  border-radius: 12px;
+  background: #302016;
+  cursor: zoom-in;
+  transition: transform .22s ease, border-color .22s ease, box-shadow .22s ease;
+}
+.ohman-testimonials .ohman-review-thumb img {
+  display: block;
+  width: 100%;
+  height: 170px;
+  object-fit: contain;
+  border-radius: 7px;
+}
+.ohman-testimonials .ohman-review-thumb:hover,
+.ohman-testimonials .ohman-review-thumb:focus-visible {
+  transform: scale(1.06);
+  border-color: #D4AF37;
+  box-shadow: 0 8px 28px rgba(0,0,0,.35);
+  outline: none;
+  position: relative;
+  z-index: 2;
+}
+.ohman-review-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(0,0,0,.88);
+  cursor: zoom-out;
+}
+.ohman-review-lightbox.is-open {
+  display: flex;
+}
+.ohman-review-lightbox img {
+  display: block;
+  max-width: min(94vw, 1000px);
+  max-height: 90vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 0 12px 50px rgba(0,0,0,.5);
+}
+.ohman-review-lightbox .ohman-review-close {
+  position: absolute;
+  top: 12px;
+  right: 18px;
+  border: 0;
+  background: transparent;
+  color: white;
+  font-size: 38px;
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  .ohman-testimonials .ohman-review-grid {
+    gap: 8px;
+  }
+  .ohman-testimonials .ohman-review-thumb {
+    padding: 3px;
+  }
+  .ohman-testimonials .ohman-review-thumb img {
+    height: 125px;
+  }
+}
+</style>
+<!-- OHMAN_SEO_BEGIN -->
+<title>OHMAN &ndash; Bien-&ecirc;tre masculin au Gabon | PoutoulSpray, Amelaku</title>
+<meta name="description" content="D&eacute;couvrez la gamme OHMAN au Gabon : PoutoulSpray, Amelaku et pommade Membr&eacute;. Vid&eacute;os d&rsquo;utilisation, avis clients et commande en ligne.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://www.ton-domaine.com/">
+<meta name="theme-color" content="#0a0a0a">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="OHMAN">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="OHMAN &ndash; Bien-&ecirc;tre masculin au Gabon | PoutoulSpray, Amelaku">
+<meta property="og:description" content="D&eacute;couvrez la gamme OHMAN au Gabon : PoutoulSpray, Amelaku et pommade Membr&eacute;. Vid&eacute;os d&rsquo;utilisation, avis clients et commande en ligne.">
+<meta property="og:url" content="https://www.ton-domaine.com/">
+<meta property="og:image" content="https://www.ton-domaine.com/assets/prod.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="OHMAN &ndash; Bien-&ecirc;tre masculin au Gabon | PoutoulSpray, Amelaku">
+<meta name="twitter:description" content="D&eacute;couvrez la gamme OHMAN au Gabon : PoutoulSpray, Amelaku et pommade Membr&eacute;. Vid&eacute;os d&rsquo;utilisation, avis clients et commande en ligne.">
+<meta name="twitter:image" content="https://www.ton-domaine.com/assets/prod.jpg">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"Organization","@id":"https://www.ton-domaine.com/#org","name":"OHMAN","url":"https://www.ton-domaine.com/","logo":"https://www.ton-domaine.com/assets/logo.jpg","areaServed":{"@type":"Country","name":"Gabon"}},
+{"@type":"WebSite","@id":"https://www.ton-domaine.com/#site","url":"https://www.ton-domaine.com/","name":"OHMAN","inLanguage":"fr","publisher":{"@id":"https://www.ton-domaine.com/#org"}}
+]}
+</script>
+<!-- OHMAN_SEO_END -->
+<link rel="icon" href="assets/logo.jpg">
+</head><body>
+<svg width="0" height="0" style="position:absolute"><defs>
+<symbol id="bolt" viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></symbol>
+<symbol id="shield" viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 5 3 8 7 10 4-2 7-5 7-10V6z"/><path d="m9 12 2 2 4-4"/></symbol>
+<symbol id="leaf" viewBox="0 0 24 24"><path d="M5 19C4 9 10 4 20 4c0 10-5 16-13 15z"/><path d="M5 19 14 10"/></symbol>
+<symbol id="star" viewBox="0 0 24 24"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></symbol>
+<symbol id="truck" viewBox="0 0 24 24"><path d="M2 6h11v10H2zM13 9h4l4 4v3h-8z"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/></symbol>
+<symbol id="search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></symbol>
+<symbol id="cart" viewBox="0 0 24 24"><path d="M3 4h3l2.4 11h10l2-8H7"/><circle cx="10" cy="19" r="1.4"/><circle cx="17" cy="19" r="1.4"/></symbol>
+<symbol id="chk" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7"/></symbol>
+<symbol id="arr" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+<symbol id="play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></symbol>
+</defs></svg>
+
+<header><div class="wrap"><div class="bar">
+<a href="#accueil" aria-label="OHMAN"><img src="assets/logo.jpg" alt="OHMAN" style="width:auto"></a>
+<nav id="nav"><a href="#accueil" class="on">Accueil</a><a href="#produits">Produits</a><a href="#avis">Avis</a><a href="#apropos">À propos</a><a href="#contact">Contact</a></nav>
+<div class="rt">
+<button class="ic" data-open="od" aria-label="Rechercher un produit"><svg class="i"><use href="#search"/></svg></button>
+<button class="ic" data-open="od" aria-label="Panier"><svg class="i"><use href="#cart"/></svg><span class="bd" id="bd">0</span></button>
+<button class="pill sm" data-open="od">Commander <svg class="i"><use href="#arr"/></svg></button>
+<button class="bg" id="bg" aria-label="Menu">☰</button>
+</div></div></div></header>
+
+<main>
+<section id="accueil" data-s><div class="wrap"><div class="hero" id="hero">
+<div class="a slash"></div>
+<img class="a head" src="assets/head.jpg" alt="" style="left:54.7cqw;top:6.8cqw;width:45.3cqw">
+<div class="a txt">
+<div class="eb">RÉSISTANCE • VITALITÉ • PERFORMANCE</div>
+<div id="ohman-countdown" style="color:#20c55e;text-align:center;margin:0 0 20px;">
+  <p style="font-size:12px;letter-spacing:2px;">OFFRE SPÉCIALE</p>
+  <div style="font-size:32px;font-weight:bold;">
+    <span id="ohman-hour">24</span>:<span id="ohman-min">00</span>:<span id="ohman-sec">00</span>
+  </div>
+  <p style="font-size:11px;">HEURES : MINUTES : SECONDES</p>
+</div>
+<h1><span class="h1" style="display:block">OHMAN</span><span class="h2" style="display:block">L’homme symbole<br><em class="o">de résistance</em></span></h1>
+<p class="lead">Une gamme de produits naturels conçus pour booster votre vitalité, améliorer vos performances et renforcer votre confiance au quotidien.</p>
+<a href="#produits" class="pill">Découvrir la gamme <svg class="i"><use href="#arr"/></svg></a>
+<div class="trust"><div><svg class="i"><use href="#shield"/></svg><b>100%</b>Naturel</div><div><svg class="i"><use href="#leaf"/></svg><b>Qualité</b>Premium</div><div><svg class="i"><use href="#truck"/></svg><b>Livraison</b>rapide</div></div>
+</div>
+<div class="a prod" style="left:42.6cqw;top:35.4cqw;width:51.2cqw"><img id="pimg" src="assets/prod.jpg" alt="Gamme OHMAN : spray, sachets Amelaku et baume Membre"></div>
+<div class="a card c1" style="left:64.2cqw;top:26.4cqw;width:18.1cqw"><svg class="i"><use href="#bolt"/></svg><div><b>Vitalité naturelle</b><span>Boostez votre énergie et votre endurance.</span></div></div>
+<div class="a script" style="left:88.2cqw;top:25.6cqw">Plus qu’un produit, une force au quotidien.</div>
+<div class="a card c2" style="left:13cqw;top:67.5cqw;width:20.7cqw"><svg class="i"><use href="#leaf"/></svg><div><b>100% Naturel</b><span>Des ingrédients sélectionnés avec soin.</span></div></div>
+</div></div></section>
+
+<section id="produits" data-s class="cat"><div class="wrap">
+<div class="hd"><div><h2>Le catalogue <em class="o">OHMAN</em></h2><p>Spray, poudre et pommade : toute la gamme, produit par produit.</p></div>
+<div class="ctl"><button class="l" id="prev" aria-label="Précédent"><svg class="i"><use href="#arr"/></svg></button><button id="next" aria-label="Suivant"><svg class="i"><use href="#arr"/></svg></button></div></div>
+<div class="trk" id="trk" tabindex="0" aria-label="Catalogue produits"><article class="pc">
+  <figure>
+    <img class="ohman-catalog-image" src="assets/IMAGE%20ET%20DETAIL/WhatsApp%20Image%202026-10-23%20at%2017.39.44%20(1).jpeg" alt="PoutoulSpray 10mL" loading="lazy">
+  </figure>
+  <div class="b">
+    <h3>PoutoulSpray 10mL</h3>
+    <div class="s">Spray retardateur à base de poutoulou.</div>
+    <p class="ohman-product-instructions">Mode d'emploi indiqué : 2 pulvérisations, attendre 45 minutes, puis rincer.</p>
+    <p class="ohman-product-price">8 000 FCFA</p>
+    <button type="button" class="pill ohman-product-order" data-ohman-product-id="poutoulspray-10ml">Commander</button>
+  </div>
+</article><article class="pc">
+  <figure>
+    <img class="ohman-catalog-image" src="assets/IMAGE%20ET%20DETAIL/WhatsApp%20Image%202026-10-23%20at%2017.39.44.jpeg" alt="Membré" loading="lazy">
+  </figure>
+  <div class="b">
+    <h3>Membré</h3>
+    <div class="s">Pommade épaississante du membre.</div>
+    <p class="ohman-product-instructions">Indication fournie : traitement de 1 mois, massage matin et soir.</p>
+    <p class="ohman-product-price">14 000 FCFA</p>
+    <button type="button" class="pill ohman-product-order" data-ohman-product-id="membre-pommade">Commander</button>
+  </div>
+</article><article class="pc">
+  <figure>
+    <img class="ohman-catalog-image" src="assets/IMAGE%20ET%20DETAIL/WhatsApp%20Image%202026-10-23%20at%2017.39.45.jpeg" alt="Amelaku 6g" loading="lazy">
+  </figure>
+  <div class="b">
+    <h3>Amelaku 6g</h3>
+    <div class="s">Poudre tonifiante à base de plantes naturelles.</div>
+    <p class="ohman-product-instructions">Mode d'emploi indiqué : prendre 1 g avec de l'eau 30 minutes avant l'acte.</p>
+    <p class="ohman-product-price">8 000 FCFA</p>
+    <button type="button" class="pill ohman-product-order" data-ohman-product-id="amelaku-6g">Commander</button>
+  </div>
+</article><article class="pc">
+  <figure>
+    <img class="ohman-catalog-image" src="assets/IMAGE%20ET%20DETAIL/WhatsApp%20Image%202026-10-23%20at%2017.39.46%20(1).jpeg" alt="PoutoulSpray 20mL" loading="lazy">
+  </figure>
+  <div class="b">
+    <h3>PoutoulSpray 20mL</h3>
+    <div class="s">Spray retardateur à base de poutoulou.</div>
+    <p class="ohman-product-instructions">Mode d'emploi indiqué : 2 pulvérisations, attendre 45 minutes, puis rincer.</p>
+    <p class="ohman-product-price">10 000 FCFA</p>
+    <button type="button" class="pill ohman-product-order" data-ohman-product-id="poutoulspray-20ml">Commander</button>
+  </div>
+</article><article class="pc">
+  <figure>
+    <img class="ohman-catalog-image" src="assets/IMAGE%20ET%20DETAIL/WhatsApp%20Image%202026-10-23%20at%2017.39.46.jpeg" alt="Amelaku 12g" loading="lazy">
+  </figure>
+  <div class="b">
+    <h3>Amelaku 12g</h3>
+    <div class="s">Poudre tonifiante à base de plantes naturelles.</div>
+    <p class="ohman-product-instructions">Mode d'emploi indiqué : prendre 1 g avec de l'eau 30 minutes avant l'acte.</p>
+    <p class="ohman-product-price">12 000 FCFA</p>
+    <button type="button" class="pill ohman-product-order" data-ohman-product-id="amelaku-12g">Commander</button>
+  </div>
+</article>
+
+
+
+
+
+</div>
+<div class="dots" id="dots"></div></div></section>
+<secti<section id="packs-ohman" class="ohman-packs-mini">
+  <div class="ohman-packs-mini-inner">
+    <header class="ohman-packs-mini-header">
+      <span>LA GAMME OHMAN</span>
+      
+      
+    </header>
+    <div class="ohman-packs-mini-grid">
+
+<article class="ohman-pack-mini-card">
+  <img src="assets/Formule%20Pack/formule%20decouverte%20A.jpeg" alt="Formule Découverte A OHMAN" loading="lazy">
+  <div class="ohman-pack-mini-body">
+    <h3>Formule Découverte A</h3>
+    <p class="ohman-pack-mini-price">12 000 FCFA · Livraison gratuite</p>
+    <a href="https://wa.me/24106799129?text=Bonjour%20OHMAN%2C%20je%20souhaite%20conna%C3%AEtre%20le%20prix%20de%20la%20Formule%20D%C3%A9couverte%20A%20et%20sa%20disponibilit%C3%A9." target="_blank" rel="noopener noreferrer">Commander cette formule</a>
+  </div>
+</article>
+<article class="ohman-pack-mini-card">
+  <img src="assets/Formule%20Pack/formule%20decouverte%20B.jpeg" alt="Formule Découverte B OHMAN" loading="lazy">
+  <div class="ohman-pack-mini-body">
+    <h3>Formule Découverte B</h3>
+    <p class="ohman-pack-mini-price">18 000 FCFA · Livraison gratuite</p>
+    <a href="https://wa.me/24106799129?text=Bonjour%20OHMAN%2C%20je%20souhaite%20conna%C3%AEtre%20le%20prix%20de%20la%20Formule%20D%C3%A9couverte%20B%20et%20sa%20disponibilit%C3%A9." target="_blank" rel="noopener noreferrer">Commander cette formule</a>
+  </div>
+</article>
+<article class="ohman-pack-mini-card">
+  <img src="assets/Formule%20Pack/formule%20decouverte%20C.jpeg" alt="Formule Découverte C OHMAN" loading="lazy">
+  <div class="ohman-pack-mini-body">
+    <h3>Formule Découverte C</h3>
+    <p class="ohman-pack-mini-price">18 000 FCFA · Livraison gratuite</p>
+    <a href="https://wa.me/24106799129?text=Bonjour%20OHMAN%2C%20je%20souhaite%20conna%C3%AEtre%20le%20prix%20de%20la%20Formule%20D%C3%A9couverte%20C%20et%20sa%20disponibilit%C3%A9." target="_blank" rel="noopener noreferrer">Commander cette formule</a>
+  </div>
+</article>
+<article class="ohman-pack-mini-card">
+  <img src="assets/Formule%20Pack/formule%20pack%20complet%20MINI.jpeg" alt="Formule Pack Complet MINI OHMAN" loading="lazy">
+  <div class="ohman-pack-mini-body">
+    <h3>Formule Pack Complet MINI</h3>
+    <p class="ohman-pack-mini-price">23 000 FCFA · Livraison gratuite</p>
+    <a href="https://wa.me/24106799129?text=Bonjour%20OHMAN%2C%20je%20souhaite%20conna%C3%AEtre%20le%20prix%20de%20la%20Formule%20Pack%20Complet%20MINI%20et%20sa%20disponibilit%C3%A9." target="_blank" rel="noopener noreferrer">Commander cette formule</a>
+  </div>
+</article>
+<article class="ohman-pack-mini-card">
+  <img src="assets/Formule%20Pack/formule%20pack%20complet%20MAX.jpeg" alt="Formule Pack Complet MAX OHMAN" loading="lazy">
+  <div class="ohman-pack-mini-body">
+    <h3>Formule Pack Complet MAX</h3>
+    <p class="ohman-pack-mini-price">28 000 FCFA · Livraison gratuite</p>
+    <a href="https://wa.me/24106799129?text=Bonjour%20OHMAN%2C%20je%20souhaite%20conna%C3%AEtre%20le%20prix%20de%20la%20Formule%20Pack%20Complet%20MAX%20et%20sa%20disponibilit%C3%A9." target="_blank" rel="noopener noreferrer">Commander cette formule</a>
+  </div>
+</article>
+    </div>
+  </div>
+</section><section id="avis" data-s class="why"><div class="wrap"><div class="pad">
+<h2 class="rv">Pourquoi choisir <em class="o">OHMAN</em> ?</h2>
+<div class="grid">
+<div class="rv"><div class="ring"><svg class="i"><use href="#bolt"/></svg></div><h3>Énergie durable</h3><p>Boostez votre vitalité et restez performant plus longtemps.</p></div>
+<div class="rv"><div class="ring"><svg class="i"><use href="#shield"/></svg></div><h3>Confiance renforcée</h3><p>Retrouvez votre assurance au quotidien.</p></div>
+<div class="rv"><div class="ring"><svg class="i"><use href="#leaf"/></svg></div><h3>Formule naturelle</h3><p>Sans produits chimiques nocifs.</p></div>
+<div class="rv"><div class="ring"><svg class="i"><use href="#star"/></svg></div><h3>Résultats prouvés</h3><p>Des milliers d’hommes déjà convaincus.</p></div>
+</div>
+
+
+
+</div></div></section>
+
+<section id="videos-ohman" class="ohman-videos" data-s>
+  <div class="ohman-videos-heading">
+    <small>UNIVERS OHMAN</small>
+    <h2>Découvrez OHMAN en vidéo</h2>
+    <p>La force, le soin et l'essentiel au masculin.</p>
+  </div>
+
+  <div class="ohman-showcase-layout">
+    <div class="ohman-videos-grid">
+      <div class="ohman-video-card">
+        <video controls playsinline preload="metadata" aria-label="Vidéo OHMAN 1">
+          <source src="assets/videos/WhatsApp%20Video%202026-10-23%20at%2017.43.03.mp4" type="video/mp4">
+          Votre navigateur ne prend pas en charge la lecture vidéo.
+        </video>
+        <p class="ohman-video-caption">Mode d’emploi du PoutoulSpray</p>
+
+      </div>
+      <div class="ohman-video-card">
+        <video controls playsinline preload="metadata" aria-label="Vidéo OHMAN 2">
+          <source src="assets/videos/WhatsApp%20Video%202026-10-23%20at%2017.43.04.mp4" type="video/mp4">
+          Votre navigateur ne prend pas en charge la lecture vidéo.
+        </video>
+        <p class="ohman-video-caption">Mode d’emploi d’AMELAKU</p>
+
+      </div>
+      <div class="ohman-video-card">
+        <video controls playsinline preload="metadata" aria-label="Vidéo OHMAN 3">
+          <source src="assets/videos/WhatsApp%20Video%202026-10-23%20at%2017.43.10.mp4" type="video/mp4">
+          Votre navigateur ne prend pas en charge la lecture vidéo.
+        </video>
+        <p class="ohman-video-caption">Explication sur la pommade MEMBR&#201;</p>
+
+      </div>
+      <div class="ohman-video-card">
+        <video controls playsinline preload="metadata" aria-label="Vidéo OHMAN 4">
+          <source src="assets/videos/WhatsApp%20Video%202026-10-23%20at%2017.43.11.mp4" type="video/mp4">
+          Votre navigateur ne prend pas en charge la lecture vidéo.
+        </video>
+        <p class="ohman-video-caption">Diff&#233;rence entre le Poutoulou brut et le PoutoulSpray</p>
+
+      </div>
+      <div class="ohman-video-card">
+        <video controls playsinline preload="metadata" aria-label="Vidéo OHMAN 5">
+          <source src="assets/videos/WhatsApp%20Video%202026-10-23%20at%2017.43.18.mp4" type="video/mp4">
+          Votre navigateur ne prend pas en charge la lecture vidéo.
+        </video>
+        <p class="ohman-video-caption">Vid&#233;o publicitaire avec des captures de t&#233;moignages</p>
+
+      </div>
+      <div class="ohman-video-card">
+        <video controls playsinline preload="metadata" aria-label="Vidéo OHMAN 6">
+          <source src="assets/videos/WhatsApp%20Video%202026-10-23%20at%2017.50.53.mp4" type="video/mp4">
+          Votre navigateur ne prend pas en charge la lecture vidéo.
+        </video>
+        <p class="ohman-video-caption">Pr&#233;sentation de la gamme</p>
+
+      </div>
+      <div class="ohman-video-card">
+        <video controls playsinline preload="metadata" aria-label="Vidéo OHMAN 7">
+          <source src="assets/videos/WhatsApp%20Video%202026-10-23%20at%2017.51.07.mp4" type="video/mp4">
+          Votre navigateur ne prend pas en charge la lecture vidéo.
+        </video>
+        <p class="ohman-video-caption">Pr&#233;sentation de la gamme</p>
+
+      </div>
+</div>
+
+    <aside class="ohman-testimonials" style="margin-top:40px;">
+  <div class="ohman-testimonials-heading" style="text-align:center;margin-bottom:24px;">
+    <small>ILS PARLENT D'OHMAN</small>
+    <h3>Les avis de nos clients</h3>
+    <p>Découvrez les retours partagés par nos clients.</p>
+  </div>
+  <div class="ohman-review-grid">
+  <button type="button" class="ohman-review-thumb" aria-label="Agrandir le premier avis client">
+    <img src="assets/temoignages/WhatsApp%20Image%202026-10-01%20at%2019.10.41.jpeg" alt="Capture du premier avis client" loading="lazy">
+  </button>
+  <button type="button" class="ohman-review-thumb" aria-label="Agrandir le deuxième avis client">
+    <img src="assets/temoignages/WhatsApp%20Image%202026-10-15%20at%2015.43.59.jpeg" alt="Capture du deuxième avis client" loading="lazy">
+  </button>
+  <button type="button" class="ohman-review-thumb" aria-label="Agrandir le troisième avis client">
+    <img src="assets/temoignages/WhatsApp%20Image%202026-10-20%20at%2013.04.09.jpeg" alt="Capture du troisième avis client" loading="lazy">
+  </button>
+</div>
+</aside>
+  </div>
+</section>
+<section id="apropos" data-s class="sol"><div class="wrap"><div class="in">
+<img class="a man" src="assets/man.jpg" alt="">
+<img class="a rock" src="assets/rock.jpg" alt="">
+<div class="a t rv"><small>LA FORCE NATURELLE</small><h2>Une solution complète<br><em>pour l’homme moderne</em></h2>
+<p>OHMAN, c’est l’alliance parfaite entre la tradition africaine et l’innovation moderne. Nos produits sont formulés pour vous aider à retrouver énergie, vitalité et performance, naturellement.</p>
+<button class="pill" data-open="sd">En savoir plus <svg class="i"><use href="#arr"/></svg></button></div>
+<button class="a story" data-open="sd"><i><svg class="i"><use href="#play"/></svg></i><span>Découvrez<br>notre histoire</span></button>
+</div></div></section>
+
+</main>
+
+<footer id="contact" data-s><div class="wrap" style="container-type:normal">
+<h3>Une question ? Passez commande.</h3>
+<div>© 2026 OHMAN · La force naturelle</div></div><!-- OHMAN_CONTACT_BEGIN -->
+<style id="ohman-contact-style">
+#ohman-contact-footer{max-width:640px;margin:0 auto;padding:36px 20px 28px;text-align:center;color:#e8e8e8}
+#ohman-contact-footer h3{color:#d4af37;font-size:1.3rem;margin:0 0 8px}
+#ohman-contact-footer p{margin:0 0 16px;font-size:.95rem;opacity:.85}
+#ohman-contact-footer .ohman-contact-btns{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+#ohman-contact-footer .ohman-contact-wa{display:inline-flex;align-items:center;justify-content:center;padding:13px 26px;border-radius:999px;background:#20c55e;color:#04130a;font-weight:700;text-decoration:none;border:1px solid #20c55e;transition:transform .3s ease,box-shadow .3s ease,background .3s ease,color .3s ease}
+#ohman-contact-footer .ohman-contact-wa:hover{transform:translateY(-2px);box-shadow:0 10px 26px -6px rgba(32,197,94,.6)}
+#ohman-contact-footer .ohman-contact-alt{background:transparent;color:#20c55e}
+#ohman-contact-footer .ohman-contact-alt:hover{background:#20c55e;color:#04130a}
+#ohman-contact-footer .ohman-contact-num{margin:18px 0 0}
+#ohman-contact-footer .ohman-contact-num a{color:#fff;text-decoration:none;letter-spacing:1px}
+</style>
+<div id="ohman-contact-footer">
+  <h3>Contact &amp; commandes</h3>
+  <p>Pour toute commande ou question, contactez-nous sur WhatsApp.</p>
+  <div class="ohman-contact-btns">
+    <a class="ohman-contact-wa" href="https://wa.me/24106799129?text=Bonjour%20OHMAN%2C%20je%20souhaite%20passer%20commande." target="_blank" rel="noopener">Commander</a>
+    <a class="ohman-contact-wa ohman-contact-alt" href="https://wa.me/24106799129?text=Bonjour%20OHMAN%2C%20j%27ai%20une%20question." target="_blank" rel="noopener">&Eacute;crire sur WhatsApp</a>
+  </div>
+  <p class="ohman-contact-num"><a href="tel:+24106799129">+241 06 79 91 29</a></p>
+</div>
+<!-- OHMAN_CONTACT_END -->
+</footer>
+
+<dialog id="od"><button class="x" data-close aria-label="Fermer">×</button>
+<h3>Commander OHMAN</h3><p>Votre commande est envoyée par WhatsApp.</p>
+<form id="of"><label for="pr">Produit</label><select id="pr"><option>Gamme complète OHMAN</option><option>Outoulspray</option><option>Poutoulspray</option><option>Amélaku (sachets)</option><option>Membre (pommade)</option></select>
+<label for="q">Quantité</label><input id="q" type="number" min="1" max="20" value="1">
+<label for="n">Nom</label><input id="n" required autocomplete="name">
+<label for="t">Téléphone</label><input id="t" type="tel" required autocomplete="tel">
+<button class="pill" type="submit">Envoyer ma commande</button></form></dialog>
+<dialog id="sd"><button class="x" data-close aria-label="Fermer">×</button>
+<h3>Notre histoire</h3><p>OHMAN, c’est l’alliance parfaite entre la tradition africaine et l’innovation moderne. Des produits naturels, sélectionnés avec soin, pour retrouver énergie, vitalité et performance.</p>
+<button class="pill" data-open="od" data-close>Commander <svg class="i"><use href="#arr"/></svg></button></dialog>
+
+<script src="js/main.js?v=6"></script><script src="js/cart.js"></script><div class="ohman-review-lightbox" id="ohman-review-lightbox" role="dialog" aria-modal="true" aria-label="Avis client agrandi">
+  <button type="button" class="ohman-review-close" aria-label="Fermer">&times;</button>
+  <img src="" alt="Avis client agrandi">
+</div>
+<script id="ohman-review-lightbox-script">
+(() => {
+  const box = document.getElementById('ohman-review-lightbox');
+  if (!box) return;
+  const big = box.querySelector('img');
+  const close = () => {
+    box.classList.remove('is-open');
+    document.body.style.overflow = '';
+  };
+  document.querySelectorAll('.ohman-review-thumb').forEach(button => {
+    button.addEventListener('click', () => {
+      const image = button.querySelector('img');
+      big.src = image.src;
+      big.alt = image.alt;
+      box.classList.add('is-open');
+      document.body.style.overflow = 'hidden';
+    });
+  });
+  box.addEventListener('click', close);
+  box.querySelector('img').addEventListener('click', event => event.stopPropagation());
+  box.querySelector('.ohman-review-close').addEventListener('click', close);
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape') close();
+  });
+})();
+</script>
+
+<div id="ohmanPackLightbox" class="ohman-pack-lightbox" aria-hidden="true">
+  <div class="ohman-pack-lightbox-panel" role="dialog" aria-modal="true" aria-labelledby="ohmanPackLightboxTitle">
+    <button type="button" class="ohman-pack-lightbox-close" data-ohman-pack-close aria-label="Fermer l'aperçu">&times;</button>
+
+    <div class="ohman-pack-lightbox-visual">
+      <img id="ohmanPackLightboxImage" src="" alt="">
+      <span class="ohman-pack-zoom-hint">APERÇU DÉTAILLÉ</span>
+    </div>
+
+    <div class="ohman-pack-lightbox-details">
+      <span class="ohman-pack-lightbox-kicker">COLLECTION OHMAN</span>
+      <h2 id="ohmanPackLightboxTitle">Formule OHMAN</h2>
+      <p id="ohmanPackLightboxDescription">Examinez l'image en grand format pour voir les détails de la formule.</p>
+      <div id="ohmanPackLightboxPrice" class="ohman-pack-lightbox-price">Prix à confirmer</div>
+      <a id="ohmanPackLightboxOrder" href="#" target="_blank" rel="noopener noreferrer" class="ohman-pack-lightbox-order">Commander cette formule</a>
+      <p class="ohman-pack-lightbox-note">Le prix et la disponibilité seront confirmés par WhatsApp.</p>
+    </div>
+  </div>
+</div>
+<style id="ohman-video-final">
+#videos-ohman#videos-ohman .ohman-videos-grid{
+  display:grid !important;
+  grid-template-columns:minmax(0,1fr) minmax(300px,420px) !important;
+  gap:14px 24px !important;align-items:start !important;
+  width:100% !important;max-width:1320px !important;margin:0 auto !important;
+}
+#videos-ohman#videos-ohman .ohman-videos-grid > .ohman-video-featured{
+  grid-column:1 !important;grid-row:1 / span 6 !important;align-self:stretch !important;
+  display:flex !important;flex-direction:column !important;
+  width:100% !important;max-width:none !important;height:auto !important;min-height:0 !important;
+  margin:0 !important;padding:0 !important;
+}
+#videos-ohman#videos-ohman .ohman-video-featured .ohman-video-play-wrap{
+  position:relative !important;display:block !important;flex:1 1 auto !important;
+  width:100% !important;max-width:none !important;height:auto !important;
+  min-height:460px !important;aspect-ratio:auto !important;margin:0 !important;
+  border-radius:14px !important;overflow:hidden !important;background:#000 !important;
+}
+#videos-ohman#videos-ohman .ohman-video-featured video{
+  position:absolute !important;top:0 !important;left:0 !important;right:0 !important;bottom:0 !important;
+  width:100% !important;height:100% !important;max-width:none !important;max-height:none !important;
+  margin:0 !important;transform:none !important;object-fit:cover !important;
+}
+@media(max-width:900px){
+  #videos-ohman#videos-ohman .ohman-videos-grid{grid-template-columns:1fr !important}
+  #videos-ohman#videos-ohman .ohman-videos-grid > .ohman-video-featured{grid-column:1 !important;grid-row:auto !important}
+  #videos-ohman#videos-ohman .ohman-video-featured .ohman-video-play-wrap{min-height:0 !important;aspect-ratio:16/9 !important;flex:none !important}
+}
+</style>
+<style id="ohman-video-hover">
+#videos-ohman#videos-ohman .ohman-video-sidebar-item{
+  position:relative !important;cursor:pointer !important;
+  border:1px solid transparent !important;border-radius:16px !important;
+  -webkit-backdrop-filter:blur(0px);backdrop-filter:blur(0px);
+  transition:transform .5s cubic-bezier(.22,1,.36,1),background .5s cubic-bezier(.22,1,.36,1),
+             box-shadow .5s cubic-bezier(.22,1,.36,1),border-color .5s cubic-bezier(.22,1,.36,1) !important;
+  will-change:transform;
+}
+#videos-ohman#videos-ohman .ohman-video-sidebar-item:hover{
+  transform:scale(1.025) !important;
+  background:rgba(255,255,255,.07) !important;
+  -webkit-backdrop-filter:blur(18px) saturate(160%);backdrop-filter:blur(18px) saturate(160%);
+  border-color:rgba(255,255,255,.14) !important;
+  box-shadow:0 18px 40px -12px rgba(0,0,0,.65),0 2px 0 rgba(255,255,255,.06) inset !important;
+}
+#videos-ohman#videos-ohman .ohman-video-sidebar-item:active{
+  transform:scale(.99) !important;
+  transition-duration:.15s !important;
+}
+#videos-ohman#videos-ohman .ohman-video-sidebar-item .ohman-video-play-wrap{
+  border-radius:12px !important;overflow:hidden !important;
+  transition:box-shadow .5s cubic-bezier(.22,1,.36,1) !important;
+}
+#videos-ohman#videos-ohman .ohman-video-sidebar-item:hover .ohman-video-play-wrap{
+  box-shadow:0 10px 26px -8px rgba(0,0,0,.7) !important;
+}
+#videos-ohman#videos-ohman .ohman-video-sidebar-item .ohman-video-play-wrap video{
+  transition:transform .8s cubic-bezier(.22,1,.36,1) !important;
+}
+#videos-ohman#videos-ohman .ohman-video-sidebar-item:hover .ohman-video-play-wrap video{
+  transform:scale(1.06) !important;
+}
+#videos-ohman#videos-ohman .ohman-video-sidebar-item .ohman-video-play-button{
+  transition:background .5s ease !important;
+}
+#videos-ohman#videos-ohman .ohman-video-sidebar-item:hover .ohman-video-play-button{
+  background:rgba(0,0,0,.12) !important;
+}
+#videos-ohman#videos-ohman .ohman-video-sidebar-item .ohman-video-play-icon{
+  display:inline-flex !important;align-items:center !important;justify-content:center !important;
+  width:34px !important;height:34px !important;border-radius:50% !important;
+  font-size:14px !important;padding-left:2px !important;
+  color:#fff !important;background:rgba(255,255,255,.22) !important;
+  -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
+  transition:transform .5s cubic-bezier(.22,1,.36,1),background .5s ease !important;
+}
+#videos-ohman#videos-ohman .ohman-video-sidebar-item:hover .ohman-video-play-icon{
+  transform:scale(1.18) !important;background:rgba(255,255,255,.34) !important;
+}
+#videos-ohman#videos-ohman .ohman-video-sidebar-item .ohman-video-caption{
+  opacity:.82 !important;
+  transition:opacity .5s ease,transform .5s cubic-bezier(.22,1,.36,1) !important;
+}
+#videos-ohman#videos-ohman .ohman-video-sidebar-item:hover .ohman-video-caption{
+  opacity:1 !important;transform:translateX(2px) !important;
+}
+@media(hover:none){
+  #videos-ohman#videos-ohman .ohman-video-sidebar-item:hover{transform:none !important}
+}
+@media(prefers-reduced-motion:reduce){
+  #videos-ohman#videos-ohman .ohman-video-sidebar-item,
+  #videos-ohman#videos-ohman .ohman-video-sidebar-item *{transition:none !important}
+}
+</style>
+<style id="ohman-vert-hover">
+/* Boutons Commander / Commandé ma formule */
+.ohman-cta-green{
+  transition:background-color .35s ease,color .35s ease,border-color .35s ease,box-shadow .35s ease,transform .35s cubic-bezier(.22,1,.36,1) !important;
+}
+.ohman-cta-green:hover,.ohman-cta-green:focus-visible{
+  background:#20c55e !important;background-color:#20c55e !important;
+  border-color:#20c55e !important;color:#04130a !important;
+  box-shadow:0 10px 28px -6px rgba(32,197,94,.65),0 0 0 1px rgba(32,197,94,.4) !important;
+  transform:translateY(-2px) !important;
+}
+.ohman-cta-green:hover *,.ohman-cta-green:focus-visible *{color:#04130a !important;stroke:#04130a}
+.ohman-cta-green:active{transform:translateY(0) scale(.98) !important}
+</style>
+<script id="ohman-vert-hover-js">
+(function(){
+  var re=/command/i;
+  function cible(t){
+    var e=t&&t.closest?t.closest('a,button'):null;
+    if(!e)return null;
+    var txt=(e.textContent||'').trim();
+    return (txt.length<45&&re.test(txt))?e:null;
+  }
+  function tout(){
+    var l=document.querySelectorAll('a,button');
+    for(var i=0;i<l.length;i++){if(cible(l[i]))l[i].classList.add('ohman-cta-green');}
+  }
+  tout();
+  document.addEventListener('mouseover',function(ev){
+    var b=cible(ev.target);
+    if(b)b.classList.add('ohman-cta-green');
+  });
+})();
+</script>
+<style id="ohman-responsive">
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+html,body{max-width:100%}
+body{overflow-x:clip}
+img,video,iframe,svg{max-width:100%}
+h1,h2,h3,p,a,li{overflow-wrap:break-word}
+
+/* Bouton menu (caché sur ordinateur) */
+.ohman-burger{display:none;width:44px;height:44px;border:1px solid rgba(255,255,255,.2);border-radius:12px;background:rgba(255,255,255,.06);cursor:pointer;padding:0;align-items:center;justify-content:center;flex-direction:column;gap:5px;flex:0 0 auto}
+.ohman-burger span{display:block;width:20px;height:2px;background:#fff;border-radius:2px;transition:transform .35s ease,opacity .35s ease}
+.ohman-burger.on span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.ohman-burger.on span:nth-child(2){opacity:0}
+.ohman-burger.on span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+/* Tablette large */
+@media(min-width:901px) and (max-width:1100px){
+  #videos-ohman#videos-ohman .ohman-videos-grid{grid-template-columns:minmax(0,1fr) minmax(250px,330px) !important;gap:12px 18px !important}
+  #videos-ohman#videos-ohman .ohman-video-featured .ohman-video-play-wrap{min-height:360px !important}
+  #videos-ohman#videos-ohman .ohman-video-sidebar-item .ohman-video-play-wrap{flex:0 0 130px !important;width:130px !important}
+}
+
+/* Tablette et mobile */
+@media(max-width:900px){
+  .ohman-burger{display:flex}
+  .ohman-nav-hidden{display:none !important}
+  .ohman-nav-hidden.ohman-nav-open{
+    display:flex !important;flex-direction:column;position:fixed;left:0;right:0;top:var(--ohman-hh,72px);
+    padding:12px 20px 20px;gap:2px;background:rgba(8,8,8,.97);
+    -webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);
+    border-bottom:1px solid rgba(255,255,255,.1);
+    max-height:calc(100vh - var(--ohman-hh,72px));overflow:auto;z-index:9998}
+  .ohman-nav-open ul{display:flex !important;flex-direction:column;gap:0;margin:0;padding:0;list-style:none;width:100%}
+  .ohman-nav-open a{display:block;padding:14px 4px;font-size:18px;border-bottom:1px solid rgba(255,255,255,.08)}
+
+  header img{max-height:48px;width:auto;max-width:130px}
+  h1{font-size:clamp(2.1rem,9vw,3.4rem) !important;line-height:1.1 !important}
+  h2{font-size:clamp(1.6rem,6vw,2.4rem) !important}
+  h3{font-size:clamp(1.25rem,4.5vw,1.8rem) !important}
+
+  [class*="grid"]:not(.ohman-videos-grid):not(.ohman-review-grid){
+    grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr)) !important}
+
+  #videos-ohman#videos-ohman{padding-left:16px !important;padding-right:16px !important;box-sizing:border-box}
+  .ohman-testimonials{padding-left:4px;padding-right:4px}
+
+  .ohman-review-lightbox img{max-width:92vw !important;max-height:85vh !important}
+}
+
+/* Mobile */
+@media(max-width:600px){
+  #videos-ohman#videos-ohman .ohman-video-sidebar-item .ohman-video-play-wrap{flex:0 0 120px !important;width:120px !important}
+  #videos-ohman#videos-ohman .ohman-video-sidebar-item .ohman-video-caption{font-size:13px !important}
+  #videos-ohman#videos-ohman .ohman-video-featured .ohman-video-caption{font-size:16px !important}
+  #videos-ohman#videos-ohman .ohman-videos-grid{gap:10px !important}
+  .ohman-review-grid{gap:8px !important}
+}
+</style>
+<style id="ohman-mobile-v2">
+#ohman-offer-bar{display:none}
+@media(max-width:900px){
+  /* Ancien cadre du compte à rebours : masqué sur mobile/tablette */
+  .ohman-orig-offer{display:none !important}
+
+  /* Barre compacte en bas */
+  #ohman-offer-bar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:9000;align-items:center;justify-content:center;gap:12px;
+    padding:8px 12px calc(8px + env(safe-area-inset-bottom,0px));box-sizing:border-box;
+    background:rgba(6,10,8,.95);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);
+    border-top:1px solid rgba(32,197,94,.45);box-shadow:0 -6px 20px rgba(0,0,0,.45)}
+  #ohman-offer-bar .t{font-size:11px;letter-spacing:2px;font-weight:600;color:#20c55e;white-space:nowrap}
+  #ohman-offer-bar .d{display:flex;align-items:center;gap:3px}
+  #ohman-offer-bar b{min-width:34px;padding:5px 3px;text-align:center;font-size:17px;font-weight:800;color:#20c55e;
+    font-variant-numeric:tabular-nums;border:1px solid rgba(32,197,94,.5);border-radius:7px;background:rgba(32,197,94,.1)}
+  #ohman-offer-bar i{color:#20c55e;font-style:normal;font-weight:800}
+  body{padding-bottom:calc(58px + env(safe-area-inset-bottom,0px)) !important}
+
+  /* Vidéos : une colonne */
+  #videos-ohman#videos-ohman{padding-left:14px !important;padding-right:14px !important;box-sizing:border-box !important;overflow-x:clip !important}
+  #videos-ohman#videos-ohman .ohman-showcase-layout{display:block !important;width:100% !important;max-width:100% !important;margin:0 !important;padding:0 !important}
+  #videos-ohman#videos-ohman .ohman-videos-grid{display:flex !important;flex-direction:column !important;gap:12px !important;width:100% !important;max-width:100% !important;margin:0 !important;padding:0 !important}
+  #videos-ohman#videos-ohman .ohman-videos-grid > .ohman-video-card{min-width:0 !important;max-width:100% !important;grid-column:auto !important;grid-row:auto !important}
+  #videos-ohman#videos-ohman .ohman-videos-grid > .ohman-video-featured{order:-1 !important;display:block !important;width:100% !important;height:auto !important;min-height:0 !important;margin:0 !important;padding:0 !important}
+  #videos-ohman#videos-ohman .ohman-video-featured .ohman-video-play-wrap{position:relative !important;display:block !important;width:100% !important;height:auto !important;min-height:0 !important;aspect-ratio:4/5 !important;max-height:70vh !important;flex:none !important;border-radius:14px !important;overflow:hidden !important;background:#000 !important}
+  #videos-ohman#videos-ohman .ohman-video-featured .ohman-video-play-wrap video{position:absolute !important;top:0 !important;left:0 !important;right:0 !important;bottom:0 !important;width:100% !important;height:100% !important;max-width:none !important;max-height:none !important;object-fit:cover !important;transform:none !important}
+  #videos-ohman#videos-ohman .ohman-video-featured .ohman-video-caption{font-size:16px !important;margin:10px 0 0 !important}
+  #videos-ohman#videos-ohman .ohman-videos-grid > .ohman-video-sidebar-item{display:flex !important;flex-direction:row !important;align-items:center !important;gap:12px !important;width:100% !important;height:auto !important;min-height:0 !important;margin:0 !important;padding:6px !important;transform:none !important}
+  #videos-ohman#videos-ohman .ohman-video-sidebar-item .ohman-video-play-wrap{flex:0 0 112px !important;width:112px !important;height:auto !important;min-height:0 !important;aspect-ratio:16/9 !important}
+  #videos-ohman#videos-ohman .ohman-video-sidebar-item .ohman-video-caption{font-size:13px !important;min-width:0 !important}
+}
+@media(max-width:420px){
+  #ohman-offer-bar .t{font-size:10px;letter-spacing:1.5px}
+  #ohman-offer-bar b{min-width:30px;font-size:15px}
+  #videos-ohman#videos-ohman .ohman-video-sidebar-item .ohman-video-play-wrap{flex:0 0 96px !important;width:96px !important}
+  #videos-ohman#videos-ohman .ohman-video-sidebar-item .ohman-video-caption{font-size:12.5px !important}
+}
+</style>
+<style id="ohman-mobile-v3">
+@media(max-width:900px){
+  /* ===== VIDEO PRINCIPALE : entière, sans rognage ===== */
+  #videos-ohman#videos-ohman .ohman-video-featured .ohman-video-play-wrap{
+    display:block !important;position:relative !important;width:100% !important;
+    height:auto !important;min-height:0 !important;max-height:none !important;
+    aspect-ratio:auto !important;flex:none !important;overflow:hidden !important;
+    background:#000 !important;border-radius:14px !important}
+  #videos-ohman#videos-ohman .ohman-video-featured .ohman-video-play-wrap video{
+    position:static !important;display:block !important;
+    width:100% !important;height:auto !important;min-height:200px !important;max-height:72vh !important;
+    max-width:100% !important;margin:0 auto !important;transform:none !important;
+    object-fit:contain !important;background:#000 !important}
+  #videos-ohman#videos-ohman .ohman-video-featured .ohman-video-play-button{
+    position:absolute !important;top:0 !important;left:0 !important;right:0 !important;bottom:0 !important}
+
+  /* ===== CATALOGUE : cartes et images plus petites ===== */
+  .ohman-prod-card{
+    flex:0 0 min(72vw,290px) !important;width:min(72vw,290px) !important;
+    max-width:min(72vw,290px) !important;min-width:0 !important}
+  .ohman-prod-media{
+    height:auto !important;min-height:0 !important;max-height:none !important;
+    aspect-ratio:auto !important;padding-bottom:0 !important}
+  .ohman-prod-img{
+    position:static !important;display:block !important;
+    width:100% !important;height:auto !important;
+    aspect-ratio:1/1 !important;max-height:min(72vw,290px) !important;
+    object-fit:cover !important;object-position:center !important}
+}
+</style>
+<script id="ohman-mobile-v3-js">
+(function(){
+  var skip='header,nav,footer,#hero,#videos-ohman,.ohman-testimonials,.ohman-review-lightbox,#ohman-offer-bar,#ohman-countdown';
+  var imgs=document.querySelectorAll('img');
+  for(var i=0;i<imgs.length;i++){
+    var im=imgs[i];
+    if(im.closest(skip))continue;
+    var c=im.parentElement;
+    while(c&&c!==document.body){
+      if((c.textContent||'').indexOf('FCFA')>-1)break;
+      c=c.parentElement;
+    }
+    if(!c||c===document.body)continue;
+    c.classList.add('ohman-prod-card');
+    im.classList.add('ohman-prod-img');
+    if(im.parentElement&&im.parentElement!==c)im.parentElement.classList.add('ohman-prod-media');
+  }
+})();
+</script>
+<style id="ohman-mobile-v5">
+@media(max-width:900px){
+  html body .ohman-prod-track{gap:10px !important;align-items:flex-start !important}
+  html body .ohman-prod-card{
+    flex:0 0 min(58vw,235px) !important;width:min(58vw,235px) !important;
+    max-width:min(58vw,235px) !important;min-width:0 !important;
+    height:auto !important;min-height:0 !important;padding:0 !important;border-radius:16px !important;overflow:hidden !important}
+  html body .ohman-prod-media{
+    width:100% !important;height:auto !important;min-height:0 !important;max-height:none !important;
+    aspect-ratio:auto !important;padding:0 !important;margin:0 !important;overflow:hidden !important}
+  html body .ohman-prod-img{
+    position:static !important;display:block !important;
+    width:100% !important;height:auto !important;
+    aspect-ratio:1/1 !important;max-height:min(58vw,235px) !important;
+    object-fit:cover !important;object-position:center !important}
+}
+@media(min-width:601px) and (max-width:900px){
+  html body .ohman-prod-card{flex:0 0 min(30vw,250px) !important;width:min(30vw,250px) !important;max-width:min(30vw,250px) !important}
+  html body .ohman-prod-img{max-height:min(30vw,250px) !important}
+}
+@media(max-width:380px){
+  html body .ohman-prod-card{flex:0 0 62vw !important;width:62vw !important;max-width:62vw !important}
+  html body .ohman-prod-img{max-height:62vw !important}
+}
+</style>
+<style id="ohman-mobile-v6">
+#ohman-offer-bar{display:none}
+@media(max-width:900px){
+  html body #ohman-offer-bar{
+    display:flex !important;visibility:visible !important;opacity:1 !important;
+    position:fixed !important;left:0 !important;right:0 !important;bottom:0 !important;top:auto !important;
+    width:100% !important;height:auto !important;transform:none !important;margin:0 !important;
+    z-index:2147483000 !important;box-sizing:border-box !important;
+    align-items:center !important;justify-content:center !important;gap:12px !important;
+    padding:8px 12px calc(8px + env(safe-area-inset-bottom,0px)) !important;
+    background:rgba(6,10,8,.96) !important;
+    border-top:1px solid rgba(32,197,94,.5) !important;box-shadow:0 -6px 20px rgba(0,0,0,.5) !important}
+  html body #ohman-offer-bar .t{font-size:11px !important;letter-spacing:2px !important;font-weight:600 !important;color:#20c55e !important;white-space:nowrap !important}
+  html body #ohman-offer-bar .d{display:flex !important;align-items:center !important;gap:3px !important}
+  html body #ohman-offer-bar b{min-width:34px !important;padding:5px 3px !important;text-align:center !important;font-size:17px !important;font-weight:800 !important;
+    color:#20c55e !important;font-variant-numeric:tabular-nums;border:1px solid rgba(32,197,94,.5) !important;border-radius:7px !important;background:rgba(32,197,94,.1) !important}
+  html body #ohman-offer-bar i{color:#20c55e !important;font-style:normal !important;font-weight:800 !important}
+  html body{padding-bottom:calc(60px + env(safe-area-inset-bottom,0px)) !important}
+}
+@media(max-width:420px){
+  html body #ohman-offer-bar .t{font-size:10px !important;letter-spacing:1.5px !important}
+  html body #ohman-offer-bar b{min-width:30px !important;font-size:15px !important}
+}
+</style>
+<script id="ohman-mobile-v6-js">
+(function(){
+  function build(){
+    var cd=document.getElementById('ohman-countdown');
+    var hH=document.getElementById('ohman-hour'),hM=document.getElementById('ohman-min'),hS=document.getElementById('ohman-sec');
+    if(!cd||!hH||!hM||!hS)return;
+
+    /* Ancien cadre : on ne masque que le bon bloc, jamais un gros conteneur */
+    document.querySelectorAll('.ohman-orig-offer').forEach(function(n){n.classList.remove('ohman-orig-offer');});
+    var box=null,e=cd;
+    while(e&&e!==document.body&&e!==document.documentElement){
+      var p=getComputedStyle(e).position;
+      if(p==='fixed'||p==='sticky'){box=e;break;}
+      e=e.parentElement;
+    }
+    if(!box||box.querySelector('header,nav,section,#videos-ohman,img,video')||(box.textContent||'').length>250)box=cd;
+    box.classList.add('ohman-orig-offer');
+
+    /* Barre du bas */
+    var old=document.getElementById('ohman-offer-bar');
+    if(old)old.remove();
+    var bar=document.createElement('div');
+    bar.id='ohman-offer-bar';
+    bar.setAttribute('aria-hidden','true');
+    bar.innerHTML='<span class="t">OFFRE SPÉCIALE</span><span class="d"><b id="ob-h">24</b><i>:</i><b id="ob-m">00</b><i>:</i><b id="ob-s">00</b></span>';
+    document.body.appendChild(bar);
+    var oh=bar.querySelector('#ob-h'),om=bar.querySelector('#ob-m'),os=bar.querySelector('#ob-s');
+    function sync(){oh.textContent=hH.textContent;om.textContent=hM.textContent;os.textContent=hS.textContent;}
+    sync();
+    if(window.__ohmanBarTimer)clearInterval(window.__ohmanBarTimer);
+    window.__ohmanBarTimer=setInterval(sync,300);
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',build);else build();
+  window.addEventListener('load',function(){if(!document.getElementById('ohman-offer-bar'))build();});
+})();
+</script>
+<style id="ohman-fluide-mobile">
+@media(max-width:900px){
+  html body *:not(header):not(header *):not(#ohman-offer-bar){-webkit-backdrop-filter:none !important;backdrop-filter:none !important}
+}
+</style>
+<a id="wa" href="https://wa.me/24106799129" hidden aria-hidden="true" tabindex="-1"></a>
+</body></html>
+
+
+
+
+
+
+
+
+
+

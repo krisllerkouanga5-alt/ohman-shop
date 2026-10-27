@@ -1,0 +1,48 @@
+﻿
+== POIDS (fichiers utiles, hors sauvegardes) ==
+Total : 53.1 Mo
+    10.1 Mo  assets\videos\WhatsApp Video 2026-10-23 at 17.43.11.mp4
+     9.9 Mo  assets\videos\WhatsApp Video 2026-10-23 at 17.51.07.mp4
+     8.3 Mo  assets\videos\WhatsApp Video 2026-10-23 at 17.43.10.mp4
+     6.6 Mo  assets\videos\WhatsApp Video 2026-10-23 at 17.43.18.mp4
+     5.9 Mo  assets\videos\WhatsApp Video 2026-10-23 at 17.43.04.mp4
+     5.1 Mo  assets\videos\WhatsApp Video 2026-10-23 at 17.50.53.mp4
+     4.2 Mo  assets\videos\WhatsApp Video 2026-10-23 at 17.43.03.mp4
+     1.2 Mo  assets\FIILE\Femme surprise présentant une main ouverte.png
+     0.1 Mo  assets\FORMULE PACK\formule decouverte C.jpeg
+     0.1 Mo  assets\FORMULE PACK\formule pack complet MAX.jpeg
+Images > 600 Ko ou videos > 8 Mo : 4
+
+== FICHIERS MANQUANTS ==
+OK : tous les fichiers existent
+
+== SYNTAXE JS ==
+OK cart.js
+OK inline1.js
+OK inline2.js
+OK inline3.js
+OK inline4.js
+OK inline5.js
+OK inline6.js
+OK inline7.js
+OK main.js
+
+== SYNTAXE CSS ==
+
+== HTML ==
+IDs en double : ob-h x2, ob-m x2, ob-s x2
+Blocs <style id=ohman-...> : 10
+viewport : True | title : True | noindex : False
+Images : 20 | sans alt : 0 | sans width/height : 20
+Videos : 7 | autoplay : 0 | sans preload : 0
+
+== ENCODAGE (caracteres abimes) ==
+index.html : 0 caractere(s) abime(s)
+css\style.css : 21 caractere(s) abime(s)
+js\main.js : 21 caractere(s) abime(s)
+js\cart.js : 0 caractere(s) abime(s)
+
+== FLUIDITE (indices) ==
+setInterval : 5 | ecouteurs scroll : 2 | backdrop-filter : 23 | animations infinies : 0
+
+== RESULTAT : 0 probleme(s) bloquant(s) detecte(s) ==

@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="fr">
+<head><meta charset="utf-8"><title>Réinitialisation OHMAN</title></head>
+<body>
+<p>Réinitialisation du compte à rebours OHMAN...</p>
+<script>
+localStorage.removeItem('ohmanCountdownEnd_v4');
+localStorage.removeItem('ohmanCountdownEnd_v3');
+document.body.innerHTML = '<h2>Réinitialisation effectuée.</h2><p>Fermez cet onglet et rechargez votre site OHMAN avec Ctrl + F5.</p>';
+</script>
+</body>
+</html>
