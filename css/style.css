@@ -3349,3 +3349,6 @@ body.ohman-pack-modal-open {
 /* OHMAN_TIMER_GRAND */
 #ohman-hour,#ohman-min,#ohman-sec{min-width:56px !important;padding:11px 8px !important;margin:0 5px !important;font-size:26px !important;border-radius:10px !important}
 @media(max-width:480px){#ohman-hour,#ohman-min,#ohman-sec{min-width:46px !important;padding:9px 6px !important;font-size:21px !important;margin:0 3px !important}}
+
+/* Espace sous le pied de page pour ne pas masquer le bouton WhatsApp */
+footer{padding-bottom:calc(40px + env(safe-area-inset-bottom,0px)) !important;}
