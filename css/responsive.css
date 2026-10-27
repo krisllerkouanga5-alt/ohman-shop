@@ -30,3 +30,11 @@ h1,h2,h3,p,a,span,b{overflow-wrap:break-word}
 @media(max-height:500px) and (orientation:landscape){
   dialog#od{max-height:100dvh !important}
 }
+
+/* Anti-décalage horizontal */
+html{overflow-x:hidden;max-width:100%}
+body{overflow-x:clip;max-width:100%;position:relative}
+@media(max-width:900px){
+  #hero,.hero{overflow:hidden;max-width:100%}
+  main,section,header,footer{max-width:100%}
+}
