@@ -1,0 +1,10 @@
+publication/
+sauvegarde-*/
+secours-*/
+securite-*/
+_archives/
+*.zip
+*.bak
+index.html.*
+css/style.css.*
+js/*.js.*
