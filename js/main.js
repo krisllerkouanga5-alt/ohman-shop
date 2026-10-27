@@ -1,4 +1,4 @@
-const WA='24106799129'; // â† remplacez par votre numÃ©ro WhatsApp (indicatif + numÃ©ro, sans +)
+﻿const WA='24106799129'; // â† remplacez par votre numÃ©ro WhatsApp (indicatif + numÃ©ro, sans +)
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 if($('#wa'))$('#wa').href='https://wa.me/'+WA;
 const hd=$('header');addEventListener('scroll',()=>hd.classList.toggle('s',scrollY>40),{passive:true});
@@ -452,4 +452,5 @@ $$('[data-p]').forEach(b=>b.addEventListener('click',()=>$('#pr').value=b.datase
     }
 })();
 // ===== OHMAN YOUTUBE LAYOUT END =====
+
 

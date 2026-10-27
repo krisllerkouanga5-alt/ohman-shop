@@ -1,4 +1,4 @@
-(() => {
+﻿(() => {
   const WA = '24166799129';
 
   const products = [
@@ -270,4 +270,5 @@ document.addEventListener('click', function(event) {
 // ===== OHMAN PACK ORDER FORM END =====
   updateTotal();
 })();
+
 
