@@ -100,3 +100,14 @@ html body .ohman-pack-lightbox .ohman-prod-img{
 @media(max-width:900px){
   html body #ohman-countdown{margin-top:-24px !important}
 }
+
+/* Vidéo en plein écran : toute l'image visible, sans rognage */
+html body #videos-ohman video:fullscreen{
+  width:100vw !important;height:100dvh !important;max-width:none !important;max-height:none !important;
+  object-fit:contain !important;background:#000 !important;border-radius:0 !important
+}
+
+html body #videos-ohman video:-webkit-full-screen{
+  width:100vw !important;height:100% !important;max-width:none !important;max-height:none !important;
+  object-fit:contain !important;background:#000 !important;border-radius:0 !important
+}
