@@ -136,3 +136,16 @@ html body #videos-ohman .ohman-video-card:-webkit-full-screen video{
 html body #videos-ohman .ohman-video-play-wrap:fullscreen .ohman-video-play-button,
 html body #videos-ohman .ohman-video-card:fullscreen .ohman-video-play-button,
 html body #videos-ohman .ohman-video-card:fullscreen .ohman-video-caption{display:none !important}
+
+/* Formules : image entière visible, sans rognage */
+html body #produits img{
+  width:100% !important;
+  height:auto !important;
+  max-height:none !important;
+  aspect-ratio:auto !important;
+  object-fit:contain !important;
+  object-position:center !important
+}
+html body #produits img:not([class*="icon"]):not([class*="logo"]){
+  display:block
+}
