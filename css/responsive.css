@@ -250,3 +250,12 @@ html body .pc > *:last-child{
 html body .pc > *:last-child > *:last-child{
   margin-top:auto !important
 }
+
+/* Catalogue : cadres au format 3/4 (images 900x1200) */
+html body .pc figure{
+  aspect-ratio:3/4 !important
+}
+html body .pc figure img,
+html body .pc img{
+  object-fit:cover !important
+}
