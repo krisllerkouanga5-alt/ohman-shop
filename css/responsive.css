@@ -214,3 +214,39 @@ html body .pc img{
   object-position:center !important
 }
 html body .pc:hover img{transform:none !important}
+
+/* Catalogue : cadres identiques, images au même format */
+html body *:has(> .pc){
+  align-items:stretch !important
+}
+html body .pc{
+  display:flex !important;
+  flex-direction:column !important;
+  align-self:stretch !important;
+  height:auto !important
+}
+html body .pc figure{
+  flex:0 0 auto !important;
+  width:100% !important;
+  aspect-ratio:4/5 !important;
+  height:auto !important;
+  overflow:hidden !important;
+  background:#111 !important
+}
+html body .pc figure img,
+html body .pc img{
+  display:block !important;
+  width:100% !important;
+  height:100% !important;
+  aspect-ratio:auto !important;
+  object-fit:cover !important;
+  object-position:center !important
+}
+html body .pc > *:last-child{
+  flex:1 1 auto !important;
+  display:flex !important;
+  flex-direction:column !important
+}
+html body .pc > *:last-child > *:last-child{
+  margin-top:auto !important
+}
