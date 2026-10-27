@@ -3352,3 +3352,28 @@ body.ohman-pack-modal-open {
 
 /* Espace sous le pied de page pour ne pas masquer le bouton WhatsApp */
 footer{padding-bottom:calc(40px + env(safe-area-inset-bottom,0px)) !important;}
+
+/* Boutons de la liste de commande */
+
+
+/* Articles command�s en vert dans le formulaire */
+#ohman-order-list > div{
+  background:rgba(32,197,94,.18) !important;
+  border:2px solid #20c55e !important;
+  color:#20c55e !important;
+  font-weight:700 !important;
+  border-radius:10px !important;
+  padding:10px 12px !important;
+  margin:8px 0 !important;
+}
+#ohman-order-list > div span,
+#ohman-order-list > div b{color:#20c55e !important}
+#ohman-order-list > p{color:#20c55e !important;font-weight:700 !important}
+#ohman-order-list button{
+  background:transparent !important;
+  border:1px solid #20c55e !important;
+  color:#20c55e !important;
+  border-radius:6px !important;
+  cursor:pointer;
+  font-weight:700;
+}
