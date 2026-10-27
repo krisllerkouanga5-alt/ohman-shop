@@ -70,3 +70,11 @@ html body .ohman-packs-mini-grid .ohman-pack-mini-card{
 html body .ohman-pack-lightbox .ohman-prod-img{
   aspect-ratio:auto !important;max-height:80dvh !important;object-fit:contain !important
 }
+
+/* Compte à rebours : retour en haut, sans la barre du bas */
+@media(max-width:900px){
+  html body:not(.x) #ohman-offer-bar{display:none !important}
+  html body:not(.x){padding-bottom:env(safe-area-inset-bottom,0px) !important}
+  html body #ohman-countdown.ohman-orig-offer,
+  html body .ohman-orig-offer{display:block !important}
+}
