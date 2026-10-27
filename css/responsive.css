@@ -95,3 +95,8 @@ html body .ohman-pack-lightbox .ohman-prod-img{
 @media(max-width:900px){
   html body #ohman-countdown{margin-top:-14px !important}
 }
+
+/* Compte à rebours : légèrement remonté (mobile et tablette) */
+@media(max-width:900px){
+  html body #ohman-countdown{margin-top:-24px !important}
+}
