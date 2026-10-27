@@ -3,6 +3,7 @@
   document.addEventListener('click',function(e){
     var t=e.target;
     if(!t||!t.closest||!t.closest('#videos-ohman'))return;
+    if(t.closest('#ohman-vback'))return; /* le bouton Retour garde son rôle */
     var v=null;
     if(t.tagName==='VIDEO'){
       v=t;
@@ -19,4 +20,3 @@
     }
   },true);
 })();
-
