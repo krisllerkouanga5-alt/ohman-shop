@@ -188,3 +188,29 @@ html body article.ohman-pack-mini-card .ohman-pack-mini-body{
   max-height:none !important;
   overflow:visible !important
 }
+
+/* Catalogue : images entières, cadre ajusté, sans vide noir en bas */
+html body .pc{
+  height:auto !important;
+  min-height:0 !important;
+  align-self:start !important
+}
+html body .pc figure{
+  aspect-ratio:auto !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  overflow:visible !important;
+  background:transparent !important
+}
+html body .pc figure img,
+html body .pc img{
+  display:block !important;
+  width:100% !important;
+  height:auto !important;
+  max-height:none !important;
+  aspect-ratio:auto !important;
+  object-fit:contain !important;
+  object-position:center !important
+}
+html body .pc:hover img{transform:none !important}
