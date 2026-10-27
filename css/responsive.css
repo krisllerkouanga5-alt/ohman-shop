@@ -259,3 +259,15 @@ html body .pc figure img,
 html body .pc img{
   object-fit:cover !important
 }
+
+/* OHMAN_TIMER_GRAND_MOBILE */
+@media(max-width:900px){
+  html body #ohman-countdown{padding:6px 10px !important;max-width:170px !important}
+  html body #ohman-countdown p{font-size:8px !important}
+  html body #ohman-countdown #ohman-countdown-bonjour{font-size:8px !important}
+  html body #ohman-countdown p:last-child{font-size:7px !important}
+  html body #ohman-countdown div{font-size:12px !important}
+  html body #ohman-countdown #ohman-hour,
+  html body #ohman-countdown #ohman-min,
+  html body #ohman-countdown #ohman-sec{font-size:13px !important;padding:3px 5px !important;min-width:22px !important}
+}

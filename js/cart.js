@@ -1,4 +1,4 @@
-﻿(() => {
+(() => {
   const WA = '24166799129';
 
   const products = [
@@ -272,3 +272,34 @@ document.addEventListener('click', function(event) {
 })();
 
 
+
+
+/* OHMAN_BOUTON_COMMANDER_FIXE */
+(function () {
+  var dlg = document.getElementById('od');
+  if (!dlg || document.getElementById('ohman-cta-fixed')) return;
+  var b = document.createElement('button');
+  b.type = 'button';
+  b.id = 'ohman-cta-fixed';
+  b.className = 'pill';
+  b.textContent = 'Commander';
+  var s = {
+    'position': 'fixed',
+    'left': '50%',
+    'bottom': 'calc(16px + env(safe-area-inset-bottom, 0px))',
+    'transform': 'translateX(-50%)',
+    'z-index': '9999',
+    'padding': '14px 36px',
+    'font-size': '16px',
+    'font-weight': '700',
+    'cursor': 'pointer',
+    'box-shadow': '0 6px 20px rgba(0,0,0,.45)'
+  };
+  for (var k in s) b.style.setProperty(k, s[k], 'important');
+  b.addEventListener('click', function () {
+    if (!dlg.open) {
+      if (dlg.showModal) dlg.showModal(); else dlg.setAttribute('open', '');
+    }
+  });
+  document.body.appendChild(b);
+})();
