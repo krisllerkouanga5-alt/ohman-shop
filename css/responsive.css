@@ -149,3 +149,19 @@ html body #produits img{
 html body #produits img:not([class*="icon"]):not([class*="logo"]){
   display:block
 }
+
+/* Formules : le cadre de l'image s'adapte à l'image entière */
+html body #produits *:has(> img){
+  height:auto !important;
+  max-height:none !important;
+  min-height:0 !important;
+  aspect-ratio:auto !important;
+  overflow:visible !important;
+  padding-bottom:0 !important
+}
+html body #produits img{
+  width:100% !important;
+  height:auto !important;
+  max-height:none !important;
+  object-fit:contain !important
+}
