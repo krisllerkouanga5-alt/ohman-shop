@@ -1,0 +1,32 @@
+﻿html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{overflow-x:clip}
+img,video,iframe,svg{max-width:100%}
+h1,h2,h3,p,a,span,b{overflow-wrap:break-word}
+@media(pointer:coarse){
+  button,.pill,a.pill,.ic,.bg{min-height:44px}
+  .ic,.bg{min-width:44px}
+}
+@media(max-width:900px){
+  .wrap{padding-left:max(20px,env(safe-area-inset-left)) !important;padding-right:max(20px,env(safe-area-inset-right)) !important;box-sizing:border-box}
+  input,select,textarea{font-size:16px !important;max-width:100%;box-sizing:border-box}
+  dialog#od{width:min(96vw,640px) !important;max-width:96vw !important;max-height:92dvh !important;overflow:auto !important;box-sizing:border-box}
+  .ohman-pack-lightbox-panel{max-height:92dvh;overflow:auto}
+  .ohman-pack-lightbox-visual img{max-width:100%;height:auto}
+  footer{padding-bottom:max(24px,env(safe-area-inset-bottom))}
+  .ohman-contact-btns{display:flex;flex-wrap:wrap;gap:10px}
+}
+@media(min-width:601px) and (max-width:900px){
+  .ohman-packs-mini-grid{display:grid !important;grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:16px !important}
+}
+@media(max-width:600px){
+  .ohman-packs-mini-grid{display:grid !important;grid-template-columns:minmax(0,1fr) !important;gap:14px !important}
+  .ohman-pack-mini-card img{width:100%;height:auto}
+  .ohman-contact-btns a{flex:1 1 100%;justify-content:center;text-align:center}
+  .pill.ohman-product-order{width:100%;justify-content:center}
+}
+@media(max-width:380px){
+  .wrap{padding-left:max(14px,env(safe-area-inset-left)) !important;padding-right:max(14px,env(safe-area-inset-right)) !important}
+}
+@media(max-height:500px) and (orientation:landscape){
+  dialog#od{max-height:100dvh !important}
+}
