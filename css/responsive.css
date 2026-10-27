@@ -165,3 +165,26 @@ html body #produits img{
   max-height:none !important;
   object-fit:contain !important
 }
+
+/* Formules (ohman-pack-mini-card) : image entière, sans rognage */
+html body article.ohman-pack-mini-card{
+  height:auto !important;
+  max-height:none !important;
+  min-height:0 !important;
+  overflow:visible !important
+}
+html body article.ohman-pack-mini-card > img{
+  display:block !important;
+  width:100% !important;
+  height:auto !important;
+  max-height:none !important;
+  min-height:0 !important;
+  aspect-ratio:auto !important;
+  object-fit:contain !important;
+  object-position:center !important
+}
+html body article.ohman-pack-mini-card .ohman-pack-mini-body{
+  height:auto !important;
+  max-height:none !important;
+  overflow:visible !important
+}
