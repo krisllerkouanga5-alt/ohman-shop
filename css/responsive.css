@@ -78,3 +78,15 @@ html body .ohman-pack-lightbox .ohman-prod-img{
   html body #ohman-countdown.ohman-orig-offer,
   html body .ohman-orig-offer{display:block !important}
 }
+
+/* Compte à rebours : encore 50 % plus petit (mobile et tablette) */
+@media(max-width:900px){
+  html body #ohman-countdown{padding:3px 5px !important;margin:0 0 4px !important;max-width:115px !important;box-sizing:border-box !important;border-radius:8px !important}
+  html body #ohman-countdown p{margin:0 !important;font-size:5px !important;letter-spacing:.5px !important;line-height:1.25 !important}
+  html body #ohman-countdown #ohman-countdown-bonjour{font-size:5px !important}
+  html body #ohman-countdown p:last-child{font-size:4px !important}
+  html body #ohman-countdown div{margin:1px 0 !important;font-size:8px !important;line-height:1.2 !important}
+  html body #ohman-countdown #ohman-hour,
+  html body #ohman-countdown #ohman-min,
+  html body #ohman-countdown #ohman-sec{font-size:8px !important;padding:1px 2px !important;min-width:0 !important;min-height:0 !important}
+}
